@@ -1,0 +1,50 @@
+{
+  "name": "test",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.5.2",
+    "@material-ui/icons": "^4.5.1",
+    "classnames": "^2.2.6",
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "react-paginate": "^6.3.0",
+    "react-redux": "^7.1.1",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.2.0",
+    "redux": "^4.0.4",
+    "redux-thunk": "^2.3.0"
+  },
+  "scripts": {
+    "start": "NODE_PATH=src/ react-scripts start",
+    "build": "NODE_PATH=src/ react-scripts build",
+    "test": "NODE_PATH=src/ react-scripts test",
+    "eject": "NODE_PATH=src/ react-scripts eject",
+    "startServer": "node ./server/index.js"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "reactSnap": {
+    "inlineCss": true
+  },
+  "devDependencies": {
+    "node-sass": "^4.12.0",
+    "redux-devtools-extension": "^2.13.8"
+  }
+}

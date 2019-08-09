@@ -1,0 +1,27 @@
+*{
+  box-sizing: border-box;
+}
+body {
+  font-family: Roboto, 'sans-serif';
+  box-sizing: border-box;
+  background: #f6f6f6;
+}
+.page-container{
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.editedText{
+  display: inline-block;
+  margin-right: 10px;
+  color:  rgba(224, 224, 224, 1);
+  font-size: 12px;
+}
+.displayNone{
+  display: none;
+}
+
+.MuiDialog-container .MuiDialog-paper{
+  overflow: hidden;
+}
